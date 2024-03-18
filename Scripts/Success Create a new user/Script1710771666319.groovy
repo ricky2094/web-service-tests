@@ -12,10 +12,14 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
-import groovy.json.JsonSlurper as JsonSlurper
-import com.kms.katalon.core.testobject.RequestObject as RequestObject
-import static org.assertj.core.api.Assertions.*
 
-int id = CustomKeywords.'sample.Common.createNewUser'(age as Integer, username, password, gender, 200)
+response = WS.sendRequest(findTestObject('Create user'))
 
-CustomKeywords.'sample.Common.findUserById'(id, age as Integer, username, password, gender, 200)
+WS.verifyResponseStatusCode(response, 201)
+
+WS.verifyElementPropertyValue(response, 'name', 'morpheus')
+
+WS.verifyElementPropertyValue(response, 'job', 'leader')
+
+WS.containsString(response, 'createdAt', false)
+

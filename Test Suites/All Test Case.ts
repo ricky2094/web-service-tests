@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>web-service-tests - All Test Cases</name>
+   <name>All Test Case</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -10,21 +10,50 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
-   <testSuiteGuid>df88b384-4db8-4c82-b255-0afa0fd22006</testSuiteGuid>
+   <testSuiteGuid>be720cb7-31ba-498c-97c0-5bdf5fe85a0d</testSuiteGuid>
    <testCaseLink>
-      <guid>28a02fc5-00a1-40cf-9a4b-ad8847be59bb</guid>
+      <guid>f338bf2f-c813-44f4-a053-ee3840df5494</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Create a new user</testCaseId>
-      <testDataLink>
-         <combinationType>ONE</combinationType>
-         <id>b29e6e15-9644-43a0-aaf0-99da7e54f7fb</id>
-         <iterationEntity>
-            <iterationType>ALL</iterationType>
-            <value></value>
-         </iterationEntity>
-         <testDataId>Data Files/ListUser</testDataId>
-      </testDataLink>
+      <testCaseId>Test Cases/Success Edit user</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>e06e0006-f2d9-4326-9188-4bab7ed7f8fd</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>5deb79ed-4e41-4417-b6a7-792203052fa8</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>b278739e-5d19-41b8-b0d5-d753c40a20f0</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>347ddc6d-ec59-4814-83fb-e5e03cd6a5b7</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>3de1e1c3-2116-409e-a1e3-d72e686c36b1</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>bc174479-5214-48c8-931c-cabcef9411b5</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Success Create a new user</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -57,39 +86,10 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>ed2e6354-f2d0-43dd-9ff7-bb978536040e</guid>
+      <guid>5725c1c8-b7fa-4229-bb75-b4075e54b8ee</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Find user by ID</testCaseId>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>c01f9799-0b50-4449-9381-55ef5499f42a</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>c286e457-b6f1-4251-b3ff-4b8732ca5dd9</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>dc24082d-c647-404f-aad4-147039c3b351</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>c61e367d-e8d2-440b-8b62-b1afb19bf7e3</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>12db7b5a-6bfc-4927-83be-322afbf82b91</variableId>
-      </variableLink>
+      <testCaseId>Test Cases/Verify User First Name</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>
